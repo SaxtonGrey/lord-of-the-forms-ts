@@ -102,3 +102,29 @@ h1 {
   padding: 5px;
   width: 400px;
 }
+
+@media (max-width: 650px) {
+  #root {
+    padding: 10px 0;
+  }
+
+  .left form,
+  .right form {
+    width: 100%;
+  }
+
+  .user-info {
+    width: 100%;
+  }
+
+  .input-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #phone-input-wrap {
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+  }
+}
